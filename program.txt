@@ -1,0 +1,9 @@
+program erreur;
+var x, y, z: integer;
+begin
+    x := 5;
+    y := 10;
+    z := x + y;
+    writeln(y);
+end
+FIN
