@@ -342,7 +342,7 @@ int main() {
 
     fclose(fichier);
 
-    printf("Contenu lu : \n%s\n----------------------------------\n", input);
+    printf("Contenu lu : ", input);
 
     pos = 0;
     symbole = analex();
